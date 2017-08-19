@@ -566,15 +566,27 @@ left: -999em;
 
 /*NDoCH */
 
+.panel-bronze {
+  border-color: #724e01;
+}
+
+.panel-silver {
+  border-color: #9a9a9a;
+}
+
 .panel-gold {
   border-color: #c98910;
 }
 
-.panel-platinum {
-  border-color: #cdcbc7;
+.panel-bronze>.panel-heading {
+  color: #222;
+  background-color: #cc8a00;
+  border-color: #724e01;
 }
 
-.panel-silver {
+.panel-silver>.panel-heading {
+  color: #222;
+  background-color: #c0c0c0;
   border-color: #9a9a9a;
 }
 
@@ -582,18 +594,6 @@ left: -999em;
   color: #222;
   background-color: #efaf36;
   border-color: #c98910;
-}
-
-.panel-platinum>.panel-heading {
-  color: #222;
-  background-color: #E5E4E2;
-  border-color: #cdcbc7;
-}
-
-.panel-silver>.panel-heading {
-  color: #222;
-  background-color: #c0c0c0;
-  border-color: #9a9a9a;
 }
 
 /*Partners CSS Opportunities Panels Same Height */
