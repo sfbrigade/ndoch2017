@@ -1,5 +1,4 @@
----
----
+
 var projectData =
 {
 {% for post in site.posts reversed | sort: title %}
